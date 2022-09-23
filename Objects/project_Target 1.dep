@@ -1,0 +1,71 @@
+Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\ARM_MC\App\main.c)(0x632D039A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (ARM_MC\App\main.h)(0x632D039A)
+I (ARM_MC\MCAL\Inc\PORT.h)(0x632CFB63)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\MCAL\Inc\PORT_def.h)(0x6300FED2)
+I (ARM_MC\Config\PORT_CFG.h)(0x6300FED2)
+I (ARM_MC\MCAL\Inc\GPT.h)(0x632CFB63)
+I (ARM_MC\Config\GPT_CFG.h)(0x6301003E)
+I (ARM_MC\MCAL\Inc\GPT_REG.h)(0x632CF9A6)
+I (ARM_MC\MCAL\Inc\NVIC.h)(0x632CF9A6)
+I (ARM_MC\Config\NVIC_CFG.h)(0x6300FF34)
+F (.\ARM_MC\MCAL\GPT.c)(0x632CFB63)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpt.o -MD)
+I (ARM_MC\MCAL\Inc\GPT.h)(0x632CFB63)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\Config\GPT_CFG.h)(0x6301003E)
+I (ARM_MC\MCAL\Inc\GPT_REG.h)(0x632CF9A6)
+F (.\ARM_MC\MCAL\NVIC.c)(0x632CF9A6)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/nvic.o -MD)
+I (ARM_MC\MCAL\Inc\NVIC.h)(0x632CF9A6)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Config\NVIC_CFG.h)(0x6300FF34)
+F (.\ARM_MC\MCAL\PORT.c)(0x632CFC2F)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (ARM_MC\MCAL\Inc\PORT.h)(0x632CFB63)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\MCAL\Inc\PORT_def.h)(0x6300FED2)
+I (ARM_MC\Config\PORT_CFG.h)(0x6300FED2)
+F (.\ARM_MC\MCAL\DIO.c)(0x632D0547)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/dio.o -MD)
+I (ARM_MC\MCAL\Inc\DIO.h)(0x632CF6D3)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\MCAL\Inc\DIO_Def.h)(0x6300F2DA)
+F (.\ARM_MC\Config\GPT_LCFG.c)(0x632CFB63)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpt_lcfg.o -MD)
+I (ARM_MC\MCAL\Inc\GPT.h)(0x632CFB63)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\Config\GPT_CFG.h)(0x6301003E)
+I (ARM_MC\MCAL\Inc\GPT_REG.h)(0x632CF9A6)
+I (ARM_MC\App\main.h)(0x632D039A)
+I (ARM_MC\MCAL\Inc\PORT.h)(0x632CFB63)
+I (ARM_MC\MCAL\Inc\PORT_def.h)(0x6300FED2)
+I (ARM_MC\Config\PORT_CFG.h)(0x6300FED2)
+I (ARM_MC\MCAL\Inc\NVIC.h)(0x632CF9A6)
+I (ARM_MC\Config\NVIC_CFG.h)(0x6300FF34)
+F (.\ARM_MC\Config\NVIC_LCFG.c)(0x6306705E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/nvic_lcfg.o -MD)
+I (ARM_MC\MCAL\Inc\NVIC.h)(0x632CF9A6)
+I (ARM_MC\Common\tm4c123gh6pm_registers.h)(0x632CF9A6)
+I (ARM_MC\Common\Common_Macros.h)(0x6300FF8A)
+I (ARM_MC\Common\Std_Types.h)(0x6300FEAC)
+I (ARM_MC\Config\NVIC_CFG.h)(0x6300FF34)
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x632CF9DC)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550A65DA)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ARM_MC/Common -I ./ARM_MC/Config -I ./ARM_MC/MCAL/Inc -I ./ARM_MC/App-I./RTE/_Target_1-IC:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/lenovo/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
