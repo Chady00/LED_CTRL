@@ -121,7 +121,7 @@ Parameters (in) :
 Parameters (out):   
 Return value    : 
 *******************************************************************************/
-void Initialize_GP_timer(const Gpt_ConfigType* ConfigPtr);
+void Initialize_GP_timer(const Gpt_ConfigType* ConfigPtr, void(*pointer_from_upper)(void));
 
 
 
