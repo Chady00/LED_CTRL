@@ -7,10 +7,15 @@ boolean ON=FALSE;
 
 char first_act=1, first_pass=1;
 
+// no need for this ISR 
+//void ISR(void)
+//{
+	//sec++;
+//}
 
-void ISR(void)
-{
-	sec++;
+//function in upper layer called by the timer_handler in GPT driver
+void increment_sec(void){
+sec++;
 }
 
 const Port_ConfigType config[PORT_CONFIGURED_CHANNELS] ={
@@ -33,7 +38,7 @@ int main(void)
 	//initialize the port
 	Initialize_Port(&config);
 	// initialize the timer
-	Initialize_GP_timer(&config_GPT);
+	Initialize_GP_timer(&config_GPT,increment_sec);
 	// Enable the notifications
 	Allow_notification(GPT_TIMER_A_0_16_32_BIT);
 	// GPT timer setting and start
