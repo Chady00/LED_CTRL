@@ -1,5 +1,4 @@
 
-
 /**********************************************************************************************************************
  *  INCLUDES
  *********************************************************************************************************************/
@@ -71,6 +70,7 @@ uint8						LocTimerType;
 
 static const Gpt_ConfigType *  global_Config;
 static void (*GptNotification[GPT_MAX_CHANNELS]) (void);
+static  void (*Gpt_global_pointer)(void);
 static const Gpt_ConfigChannel * Channel;
 
 
@@ -85,8 +85,7 @@ static const Gpt_ConfigChannel * Channel;
 * \Parameters (out): None                                                      
 * \Return value:   : None                               
 *******************************************************************************/
-void Initialize_GP_timer(const Gpt_ConfigType* ConfigPtr)  
-{
+void Initialize_GP_timer(const Gpt_ConfigType* ConfigPtr,void(*pointer_from_upper)(void) ){
 	global_Config=ConfigPtr;
 	if(global_Config!=NULL_PTR)
 	{
@@ -100,7 +99,8 @@ void Initialize_GP_timer(const Gpt_ConfigType* ConfigPtr)
 			LocMode											=Channel->GptChannelMode									;
 			LocTicks										=Channel->GptChannelTickValueMax					;
 			LocBaseAdd									=GPT_TimerChannelBaseAddress[LocChannelId%12];
-			GptNotification[LocChannelId%12]	=Channel->GptNotifications								;
+			GptNotification[LocChannelId%12]	=Channel->GptNotifications;
+			Gpt_global_pointer = pointer_from_upper;
 			/*Configuration parameters now are saved into the local variables and the base address of the timer is saved*/
 					
 		if(LocChannelId/TIMER_COUNT)
@@ -459,7 +459,7 @@ void TIMER0A_Handler(void)
 
 	
 		/*Call the funciton*/
-		GptNotification[0]();
+		(*Gpt_global_pointer)();
 		
 		/*Clear the flag*/
 		SET_BIT(*(volatile uint32 *)(GPT_TimerChannelBaseAddress[0] + GPT_GPTMICR_REG_OFFSET),BIT0);
